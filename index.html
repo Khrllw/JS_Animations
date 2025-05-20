@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LabWork_1</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+
+<body>
+
+<!-- Animation and screen params -->
+<script src="js/parameters.js"></script>
+
+<div id="progressLine"></div>
+
+<!----------------------- HEADER ----------------------->
+<!-- Fun data -->
+<div class="topmost-div" id="infoCoord">
+    <text id="showScroll">From the top: 0 px</text>
+    <text id="mouseMove">Your mouse: 0:0 px</text>
+</div>
+
+<div class="topmost-div" id="blinkHeader">`swipe</div>
+
+<!-- Main navigation -->
+<div class="topmost-div" id="mainMenu">
+    <text class="menu-text active" id="menuItem_0">Red</text>
+    <text class="menu-text" id="menuItem_1">Green</text>
+    <text class="menu-text" id="menuItem_2">Blue</text>
+</div>
+
+<!----------------------- MAIN ----------------------->
+<!-- Pages -->
+<div class="cont-page">
+    <text class="subinfo-text rgb-code">
+        "color: <b>#FF0000</b>;"
+    </text>
+    <text class="main-text" id="redText">
+        RED
+    </text>
+    <text class="subinfo-text" id="redSubText">
+        Red is the power and passion in every word
+    </text>
+</div>
+
+<div class="cont-page">
+    <text class="subinfo-text rgb-code">
+        "color: <b>#00FF00</b>;"
+    </text>
+    <text class="main-text" id="greenText">
+        GREEN
+    </text>
+    <text class="subinfo-text" id="greenSubText">
+        Green is a symbol of harmony and tranquility
+    </text>
+</div>
+
+<div class="cont-page">
+    <text class="subinfo-text rgb-code">
+        "color: <b>#0000FF</b>;"
+    </text>
+    <text class="main-text" id="blueText">
+        BLUE
+    </text>
+    <text class="subinfo-text" id="blueSubText">
+        The blue is a symbol of trust and clarity
+    </text>
+</div>
+
+<!-- New mouse -->
+<div id="mousePointer"></div>
+
+<!-- Background -->
+<div id="foneItem"></div>
+
+<script src="js/handlers.js"></script>
+</body>
+
+<footer>
+    <p>IKPI-23 Kharlova A.A.</p>
+</footer>
+
+</html>
