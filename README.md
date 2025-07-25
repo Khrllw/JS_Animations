@@ -15,6 +15,11 @@
 - CSS3       (переменные, анимации, flexbox)
 - JavaScript (обработчики событий scroll и mousemove)
 
+## Скриншоты
+![Скрин_1](screenshots/red.png)
+![Скрин_2](screenshots/green.png)
+![Скрин_3](screenshots/blue.png)
+
 ## Структура проекта
 
 ```
@@ -47,7 +52,13 @@ project/
 
 ## Как запустить
 
-### Предварительные требования
+### 1 Способ. Просто открыть в браузере
+
+```bash
+start index.html 
+```
+
+### 2 Способ. Предварительные требования
 
 - Установленный [Docker](https://docs.docker.com/get-docker/)
 - Все команды выполняются **в корне проекта** (где находятся `Dockerfile`, `index.html` и папки `css/`, `js/`)
